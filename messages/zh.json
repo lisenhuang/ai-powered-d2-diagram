@@ -28,7 +28,7 @@
     "aiHelper": "GPT-4.1 会把描述转换成 D2 代码。",
     "codeHelper": "需要完全掌控？直接粘贴或修改 D2。",
     "statusAI": "正在请求 GPT-4.1…",
-    "statusD2": "正在调用 D2 CLI 渲染…",
+    "statusD2": "正在使用 D2 引擎渲染…",
     "resultTitle": "图表预览",
     "download": "下载",
     "cachedBadge": "缓存命中",

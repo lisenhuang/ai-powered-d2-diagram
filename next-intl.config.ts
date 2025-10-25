@@ -1,3 +1,3 @@
-const withNextIntl = require("next-intl/plugin")("./src/i18n/request.ts");
+import withNextIntl from "next-intl/plugin";
 
-module.exports = withNextIntl({});
+export default withNextIntl("./src/i18n/request.ts")({});

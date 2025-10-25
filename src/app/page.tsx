@@ -26,7 +26,7 @@ export default async function Home() {
         <p className="text-sm text-muted-foreground">{tHero("subtitle")}</p>
         <Separator />
         <div className="text-xs text-muted-foreground">
-          GPT-4.1 · D2 CLI · Next.js · SWR
+          GPT-4.1 · D2 WASM · Next.js · SWR
         </div>
       </header>
 

@@ -28,7 +28,7 @@
     "aiHelper": "GPT-4.1 will write D2 code for you.",
     "codeHelper": "Prefer full control? Paste or tweak your own D2 script.",
     "statusAI": "Asking GPT-4.1…",
-    "statusD2": "Rendering with the D2 CLI…",
+    "statusD2": "Rendering with the D2 runtime…",
     "resultTitle": "Preview",
     "download": "Download",
     "cachedBadge": "Cached",
