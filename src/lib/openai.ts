@@ -35,13 +35,13 @@ export async function promptToD2Code(prompt: string, locale: string) {
     input: [
       {
         role: "system",
-        content: [{ type: "text", text: systemPrompt }],
+        content: [{ type: "input_text", text: systemPrompt }],
       },
       {
         role: "user",
         content: [
           {
-            type: "text",
+            type: "input_text",
             text: `Locale: ${locale}\nPrompt: ${prompt}\nReturn only D2 code.`,
           },
         ],
