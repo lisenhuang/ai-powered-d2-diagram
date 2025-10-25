@@ -1,8 +1,3 @@
-import { defineConfig } from "next-intl/config";
-import { defaultLocale, localePrefix, locales } from "./src/i18n/config";
+const withNextIntl = require("next-intl/plugin")("./src/i18n/request.ts");
 
-export default defineConfig({
-  locales,
-  defaultLocale,
-  localePrefix,
-});
+module.exports = withNextIntl({});
