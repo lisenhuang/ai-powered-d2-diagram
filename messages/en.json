@@ -1,0 +1,56 @@
+{
+  "common": {
+    "appName": "D2 Diagram Studio",
+    "language": "Language",
+    "theme": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark",
+    "copied": "D2 code copied",
+    "copy": "Copy"
+  },
+  "hero": {
+    "title": "Generate D2 diagrams with AI or code",
+    "subtitle": "Use GPT-4.1 to describe what you need or paste handcrafted D2 scripts, then export SVG or PNG that match your theme."
+  },
+  "builder": {
+    "tabs": {
+      "ai": "AI assisted",
+      "manual": "Manual D2"
+    },
+    "promptLabel": "Describe your diagram",
+    "promptPlaceholder": "Example: A load balancer distributing traffic to two services and a shared database",
+    "codeLabel": "Provide D2 code",
+    "codePlaceholder": "app: App\napp -> db: writes\ndb: Database",
+    "formatLabel": "Export format",
+    "submit": "Generate diagram",
+    "reset": "Reset",
+    "aiHelper": "GPT-4.1 will write D2 code for you.",
+    "codeHelper": "Prefer full control? Paste or tweak your own D2 script.",
+    "statusAI": "Asking GPT-4.1…",
+    "statusD2": "Rendering with the D2 CLI…",
+    "resultTitle": "Preview",
+    "download": "Download",
+    "cachedBadge": "Cached",
+    "createdAt": "Generated",
+    "sizeLabel": "Size",
+    "codeTitle": "Generated D2 code",
+    "emptyState": "Generate your first diagram to see it here.",
+    "manualHint": "Need ideas? Switch to the AI tab first and then keep editing the D2 output.",
+    "aiHint": "The AI result remains editable before exporting.",
+    "formatSvg": "SVG (scales well)",
+    "formatPng": "PNG (bitmap)",
+    "localeLabel": "Interface language",
+    "themeLabel": "Display theme"
+  },
+  "validation": {
+    "promptRequired": "Describe the desired diagram before generating.",
+    "codeRequired": "Provide valid D2 code to continue."
+  },
+  "messages": {
+    "copied": "D2 copied to clipboard",
+    "downloadReady": "Download started",
+    "aiError": "The AI response did not contain valid D2 code.",
+    "openaiMissing": "OPENAI_API_KEY is missing on the server."
+  }
+}

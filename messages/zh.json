@@ -1,0 +1,56 @@
+{
+  "common": {
+    "appName": "D2 图表工作台",
+    "language": "语言",
+    "theme": "主题",
+    "system": "跟随系统",
+    "light": "浅色",
+    "dark": "深色",
+    "copied": "已复制 D2 代码",
+    "copy": "复制"
+  },
+  "hero": {
+    "title": "用 AI 或手写 D2 生成图表",
+    "subtitle": "描述需求交给 GPT-4.1，或直接粘贴 D2 脚本，几秒钟内导出可适配明暗模式的 SVG / PNG。"
+  },
+  "builder": {
+    "tabs": {
+      "ai": "AI 生成",
+      "manual": "手动 D2"
+    },
+    "promptLabel": "用文字描述图表",
+    "promptPlaceholder": "例如：一个负载均衡器把请求分发到两个服务，并连接到共享数据库",
+    "codeLabel": "粘贴 D2 代码",
+    "codePlaceholder": "app: 应用\napp -> db: 写入\ndb: 数据库",
+    "formatLabel": "导出格式",
+    "submit": "生成图表",
+    "reset": "清空",
+    "aiHelper": "GPT-4.1 会把描述转换成 D2 代码。",
+    "codeHelper": "需要完全掌控？直接粘贴或修改 D2。",
+    "statusAI": "正在请求 GPT-4.1…",
+    "statusD2": "正在调用 D2 CLI 渲染…",
+    "resultTitle": "图表预览",
+    "download": "下载",
+    "cachedBadge": "缓存命中",
+    "createdAt": "生成时间",
+    "sizeLabel": "文件大小",
+    "codeTitle": "D2 代码",
+    "emptyState": "生成第一个图表后会出现在这里。",
+    "manualHint": "没思路？可以先用 AI 生成，再继续修改 D2。",
+    "aiHint": "生成结果会显示在下方，可在导出前调整。",
+    "formatSvg": "SVG（矢量）",
+    "formatPng": "PNG（位图）",
+    "localeLabel": "界面语言",
+    "themeLabel": "界面主题"
+  },
+  "validation": {
+    "promptRequired": "请先描述想要的图表。",
+    "codeRequired": "需要提供合法的 D2 代码。"
+  },
+  "messages": {
+    "copied": "已复制到剪贴板",
+    "downloadReady": "开始下载",
+    "aiError": "AI 没有返回可用的 D2 代码。",
+    "openaiMissing": "服务器缺少 OPENAI_API_KEY。"
+  }
+}
