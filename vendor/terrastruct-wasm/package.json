@@ -1,0 +1,11 @@
+{
+  "name": "@terrastruct/wasm",
+  "version": "0.1.33",
+  "description": "Bundled D2 WASM assets (local vendored copy)",
+  "main": "wasm_exec.js",
+  "files": [
+    "wasm_exec.js",
+    "d2.wasm"
+  ],
+  "license": "SEE LICENSE IN ../../LICENSE"
+}
