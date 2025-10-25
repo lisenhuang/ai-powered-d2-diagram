@@ -41,6 +41,7 @@ export async function POST(request: Request) {
     try {
       diagramCode = await promptToD2Code(prompt!.trim(), locale);
     } catch (error) {
+      console.error("[api/generate] OpenAI request failed", error);
       return NextResponse.json(
         {
           error: error instanceof Error ? error.message : "OpenAI request failed",
@@ -112,6 +113,7 @@ export async function POST(request: Request) {
       timings,
     });
   } catch (error) {
+    console.error("[api/generate] D2 rendering failed", error);
     return NextResponse.json(
       {
         error: error instanceof Error ? error.message : "Failed to render diagram",
