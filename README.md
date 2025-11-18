@@ -38,4 +38,4 @@ Visit `http://localhost:3000` to use the studio. The UI follows the system langu
 - The API route runs on the Next.js server runtime, so D2 must be installed on the same machine that runs `pnpm dev` / `pnpm build`.
 - When AI mode is used without `OPENAI_API_KEY`, the request fails early with a localized error toast.
 - To add more export formats (PDF, etc.), extend `diagramFormats` in `src/lib/validation.ts` and update the UI select.
-- Cache size currently holds 25 entries in-memory; adjust `MAX_CACHE_ITEMS` in `src/lib/cache.ts` to tune memory usage.
+- Cache size currently holds 25 entries in-memory; adjust `MAX_CACHE_ITEMS` in `src/lib/cache.ts` to tune memory usage
